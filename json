@@ -1,4 +1,4 @@
-{
+?{
 	"name": "Electron Core Development Environment",
 	"dockerComposeFile": "docker-compose.yml",
 	"service": "buildtools",
@@ -14,7 +14,7 @@
 		"5901": {
 			"label": "VNC TCP port",
 			"onAutoForward": "silent"
-		}
+		}?
 	},
 	"hostRequirements": {
 		"storage": "128gb",
@@ -47,5 +47,5 @@
 				"typescript.preferences.quoteStyle": "single"
 			}
 		}
-	}
+	}?
 }
